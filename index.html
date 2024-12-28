@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VALORANT</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/tippy.js@6/animations/scale.css"
+/>
+
+  <!-- parallax.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="parallax.js/parallax.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="parallax-window" data-parallax="scroll" data-speed="0.2" data-image-src="IMG/Neon.jpg">
+    <nav>
+      <h1 class="logo">
+        <a href="https://playvalorant.com/id-id/">VALORANT</a>
+      </h1>
+      <a href="sign-up copy.html" class="btn-sign-up">Sign Up</a>
+    </nav>
+    <div class="header-title">NEON</div>
+    <div class="header-bottom">
+      <p class="today-date">1 <span>/ 4</span></p>
+    </div>
+  </header>
+  <!-- About -->
+  <section id="about">
+    <div class="about-container">
+      <div class="image-gallery">
+        <div class="image-box">
+          <img src="IMG/NON.jpg" alt="IMAGE" />
+          <h2 class="NEON">N</h2>
+        </div>
+        <div class="image-box">
+          <img src="IMG/CC.jpg" alt="IMAGE" />
+          <h2 class="NEON">E</h2>
+        </div>
+        <div class="image-box">
+          <img src="IMG/B1.jpg" alt="IMAGE" />
+          <h2 class="NEON">O</h2>
+        </div>
+        <div class="image-box">
+          <img src="IMG/PH.jpg" alt="IMAGE" />
+          <h2 class="NEON">N</h2>
+        </div>
+      </div>
+      <div class="about-info">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid et
+        blanditiis sapiente deleniti magni ducimus maxime iste necessitatibus
+        reprehenderit quos amet maiores, minus quod numquam exercitationem, ea
+        culpa, quam ullam.
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="credit">
+      <p>Created by <a href="">Oboss</a> | &copy; 2023.</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script>
+    tippy('.btn-sign-up', {
+      placement: 'left',
+      content: 'Sign Up Now!',
+      animation: 'scale'
+    });
+  </script>
+</body>
+
+</html>

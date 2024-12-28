@@ -1,0 +1,138 @@
+@import url("https://fonts.cdnfonts.com/css/valorant");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-index {
+  margin: 1.2rem;
+  padding-top: 1rem;
+  position: absolute;
+  font-weight: 200;
+}
+
+.nav-index a {
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  font-family: "VALORANT", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-radius: 50px;
+  transition: .3s;
+}
+
+.nav-index a:hover {
+  background-color: #e71355;
+  color: #ffffff;
+}
+
+.container {
+  position: absolute;
+  left: 80%;
+  font-family: "VALORANT", sans-serif;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  border-radius: 2rem;
+  width: 300px;
+  height: 400px;
+  background: #ffffff;
+  color: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 4px double #e61d1d;
+  cursor: default;
+}
+
+.content-log {
+  height: 250px;
+  font-family:sans-serif;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content-log label {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  width: 250px;
+  color: #251d1d;
+  font-size: 1em;
+}
+
+.container input {
+  width: 250px;
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 6px 10px;
+  background-color: transparent;
+  border-bottom: 2px solid #000000;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+.container input:nth-of-type(2) {
+  margin-bottom: 20px;
+}
+
+.btn-login {
+  transition: .3s;
+  margin: 0;
+  font-family: "VALORANT", sans-serif;
+  cursor: pointer;
+}
+
+
+.btn-login:hover {
+  background-color: #e61d1d;
+  color: #ffffff;
+}
+
+
+.Have-account {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: none;
+  color: #000000;
+  cursor: default;
+}
+
+.Login {
+  font-size: 12px;
+  color: black;
+}
+
+.Tentukan{
+  margin-bottom: 10px;
+  font-size: 1em;
+  max-width: 90%;
+  text-align: justify;
+}
+
+
+
+
+
+
